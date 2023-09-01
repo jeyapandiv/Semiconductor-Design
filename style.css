@@ -1,0 +1,389 @@
+body {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+h3 {
+    font-size: 30px;
+}
+
+
+/* ............................................navbar.............................................. */
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-inner {
+    width: 95%;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.nav-right-menu {
+    display: flex;
+    gap: 30px;
+}
+.nav-right-menu a {
+    text-decoration: none;
+}
+
+/* ..........................................container-1............................................ */
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+}
+
+.container1-inner,
+.container3-inner,
+.container4-inner,
+.container5-inner,
+.container6-inner,
+.container7-inner {
+    width: 80%;
+}
+
+.container1-inner {
+    color: white;
+}
+
+.container1-inner-content {
+    width: 33%;
+    padding: 170px 0px;
+}
+
+.container1-inner-content p {
+    line-height: 25px;
+}
+
+.linearline1 {
+    padding: 20px 0px;
+    width: 100%;
+    background-image: linear-gradient(#053786, #00A6CB);
+}
+
+/* ..........................................container-2........................................... */
+
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.container2-inner {
+    width: 65%;
+}
+
+.container2-tech-type-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.container2-tick {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container2-tech-type-1,
+.container2-tech-type-2 {
+    width: 30%;
+}
+
+/* ...........................................container3.......................................... */
+
+
+.container3-content {
+    width: 100%;
+    background-image: url(/images/technology.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content:end;
+
+}
+
+.container3-content-right {
+    width: 55%;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3-content-right-inner {
+    width: 80%;
+    line-height: 30px;
+}
+.vline{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+.verticalline {
+    width: 3px;
+    height: 45px;
+    background-image: linear-gradient(#053786, #00A6CB);
+}
+
+/* .......................................container4...................................... */
+.container4 {
+    padding-bottom: 20px;
+}
+
+.container4-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container4-content-left,
+.container4-image-right {
+    width: 45%;
+}
+
+.container4-content-left p {
+    line-height: 30px;
+}
+
+.container4-image-right img {
+    width: 100%;
+
+}
+
+/* ........................................container5,6...................................... */
+.container5,
+.container6 {
+    padding-top: 0;
+}
+
+.container5-inner,
+.container6-inner-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container5-card,
+.container6-card {
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.container5-card-icon,
+.container6-card-icon {
+    padding: 50px 30px;
+    background-color: #eaebed;
+}
+
+.container5-card p {
+    line-height: 25px;
+}
+
+/* ........................................container7........................................ */
+
+.container7 {
+    background-color: #edebebef;
+}
+
+.container7-table {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #011533;
+    color: white;
+}
+
+.container7-table table {
+    text-align: center;
+    width: 100%;
+    border: .5px solid rgb(173, 173, 173);border-radius: 5px;
+}
+
+
+
+
+/* .....................................container8................................................. */
+
+.container8 {
+    background-color: #011533;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container8-content-main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.container8-content{
+    width: 40%;
+}
+
+.container8-content {
+    line-height: 25px;
+}
+.container8-map {
+    width: 50%;
+}
+.container8-map iframe {
+    width: 100%;
+    height: 350px;
+}
+
+.container8-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.linearline2 {
+    width: 100%;
+    padding: 3px 0px;
+    background-image: linear-gradient(#053786, #00A6CB);
+}
+
+
+/* .....................................mediaquerry.............................. */
+
+@media screen and (max-width: 600px){
+
+
+    .nav-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container1-inner-content {
+        width: 100%;
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+/* ......................container2............... */
+    .container2 {
+        padding-bottom: 0px;
+    }
+
+    .container2-inner{
+        width: 80%;
+    }
+
+    .container2-tech-type-1,
+    .container2-tech-type-2 {
+        width: 100%;
+    }
+
+    .container2-tech-type-list {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+ /* .................container3.......................    */
+
+    .container3-content {
+        background-size: contain;
+        background-position: bottom;
+        justify-content: center;
+  
+        background-color: #cddae6;
+    }
+
+    .container3-content-right {
+        width: 100%;
+        padding: 20px 0px 160px 0px;
+    }
+
+    /* ................container4....................... */
+
+    .container4 {
+        padding-top: 0;
+    }
+
+    .container4-inner {
+        flex-direction: column;
+    }
+
+    .container4-content-left,
+    .container4-image-right {
+        width: 100%;
+    }
+
+/* .......................container5,6...................... */
+
+    .container5-inner,
+    .container6-inner-card {
+        flex-direction: column;
+    }
+
+    .container5-card,
+    .container6-card {
+        width: 100%;
+    }
+
+    /* /* ......................container8.................... */
+
+    .container8-content-main {
+        flex-direction: column;
+    }
+
+    .container8-map,
+    .container8-content{
+        width: 100%;
+    }
+
+    .container8-inner{
+        align-items: center;
+    }
+
+}
