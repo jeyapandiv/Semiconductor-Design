@@ -254,7 +254,11 @@ th {
     border: .5px solid rgb(173, 173, 173);border-radius: 5px;
 }
 
+.container7-table th, tr, td {
+    border: .5px solid rgb(173, 173, 173);
 
+
+}
 
 
 /* .....................................container8................................................. */
